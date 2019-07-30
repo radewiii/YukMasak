@@ -16,5 +16,13 @@ public class AcActivity extends AppCompatActivity {
         pdfView.fromAsset("Spicy tuna roll.pdf")
                 .enableSwipe(true)
                 .load();
+        assert getSupportActionBar()!=null;
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        finish();
+        return true;
     }
 }

@@ -17,5 +17,13 @@ public class SeActivity extends AppCompatActivity {
         pdfView.fromAsset("Smoothies Mangga Wortel.pdf")
                 .enableSwipe(true)
                 .load();
+        assert getSupportActionBar()!=null;
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        finish();
+        return true;
     }
 }

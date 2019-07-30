@@ -17,5 +17,13 @@ public class ScActivity extends AppCompatActivity {
         pdfView.fromAsset("Smoothie Pisang Kacang Mete.pdf")
                 .enableSwipe(true)
                 .load();
+        assert getSupportActionBar()!=null;
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        finish();
+        return true;
     }
 }

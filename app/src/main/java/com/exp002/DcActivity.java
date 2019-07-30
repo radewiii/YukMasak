@@ -16,5 +16,13 @@ public class DcActivity extends AppCompatActivity {
         pdfView.fromAsset("Dorayaki.pdf")
                 .enableSwipe(true)
                 .load();
+        assert getSupportActionBar()!=null;
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        finish();
+        return true;
     }
 }

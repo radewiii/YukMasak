@@ -17,5 +17,13 @@ public class DeActivity extends AppCompatActivity {
         pdfView.fromAsset("Thiramissu.pdf")
                 .enableSwipe(true)
                 .load();
+        assert getSupportActionBar()!=null;
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        finish();
+        return true;
     }
 }

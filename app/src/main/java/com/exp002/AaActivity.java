@@ -1,7 +1,9 @@
 package com.exp002;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.github.barteksc.pdfviewer.PDFView;
@@ -17,5 +19,13 @@ public class AaActivity extends AppCompatActivity {
         pdfView.fromAsset("Chickpea salad with lemon.pdf")
                 .enableSwipe(true)
                 .load();
+        assert getSupportActionBar()!=null;
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        finish();
+        return true;
     }
 }

@@ -17,5 +17,13 @@ public class SdActivity extends AppCompatActivity {
         pdfView.fromAsset("Smoothie Sirsak Stroberi.pdf")
                 .enableSwipe(true)
                 .load();
+        assert getSupportActionBar()!=null;
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        finish();
+        return true;
     }
 }
