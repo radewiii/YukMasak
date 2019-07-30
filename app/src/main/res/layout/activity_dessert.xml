@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bac"
+    tools:context=".DessertActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="25dp"
+        android:padding="45dp"
+        >
+
+        <Button
+            android:id="@+id/f"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="7dp"
+            android:textColor="#F8ED8D"
+            android:background="#B7532203"
+            android:text="Cheese Cake"
+            />
+        <Button
+            android:id="@+id/g"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="7dp"
+            android:textColor="#F8ED8D"
+            android:background="#B7532203"
+            android:text="Churros"
+            />
+
+        <Button
+            android:id="@+id/h"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="7dp"
+            android:textColor="#F8ED8D"
+            android:background="#B7532203"
+            android:text="Dorayaki"
+            />
+
+        <Button
+            android:id="@+id/i"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="7dp"
+            android:textColor="#F8ED8D"
+            android:background="#B7532203"
+            android:text="Lamington"
+            />
+
+        <Button
+            android:id="@+id/j"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="7dp"
+            android:textColor="#F8ED8D"
+            android:background="#B7532203"
+            android:text="Thiramissu"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

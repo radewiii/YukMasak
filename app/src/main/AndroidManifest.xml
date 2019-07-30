@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.exp002">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_logo"
+        android:label="Yuk Masak"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SeActivity"></activity>
+        <activity android:name=".SdActivity" />
+        <activity android:name=".ScActivity" />
+        <activity android:name=".SbActivity" />
+        <activity android:name=".SaActivity" />
+        <activity android:name=".SmothiesActivity" />
+        <activity android:name=".DeActivity" />
+        <activity android:name=".DdActivity" />
+        <activity android:name=".DcActivity" />
+        <activity android:name=".DbActivity" />
+        <activity android:name=".DaActivity" />
+        <activity android:name=".AeActivity" />
+        <activity android:name=".AdActivity" />
+        <activity android:name=".AcActivity" />
+        <activity android:name=".AbActivity" />
+        <activity android:name=".AaActivity" />
+        <activity android:name=".DessertActivity" />
+        <activity android:name=".MakanActivity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

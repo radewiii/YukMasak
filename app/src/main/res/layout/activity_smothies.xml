@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bac"
+    tools:context=".SmothiesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="25dp"
+        android:padding="45dp">
+
+        <Button
+            android:id="@+id/k"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="7dp"
+            android:textColor="#F8ED8D"
+            android:background="#B7532203"
+            android:text="Smoothies Banana Berry"
+            />
+
+        <Button
+            android:id="@+id/l"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="7dp"
+            android:textColor="#F8ED8D"
+            android:background="#B7532203"
+            android:text="Smoothies Mangga Alpukat"
+            />
+
+        <Button
+            android:id="@+id/m"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#F8ED8D"
+            android:background="#B7532203"
+            android:text="Smoothies Pisang Kacang Mete"
+            />
+
+        <Button
+            android:id="@+id/n"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="7dp"
+            android:textColor="#F8ED8D"
+            android:background="#B7532203"
+            android:text="Smoothies Sirsak Stroberi"
+            />
+
+        <Button
+            android:id="@+id/o"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="7dp"
+            android:textColor="#F8ED8D"
+            android:background="#B7532203"
+            android:text="Smoothies Mangga Wortel"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

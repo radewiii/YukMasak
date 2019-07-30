@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bac"
+    tools:context=".MakanActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="25dp"
+        android:padding="45dp"
+        >
+        <Button
+            android:id="@+id/a"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Chickpea salad with lemon"
+            android:layout_marginTop="7dp"
+            android:textColor="#F8ED8D"
+            android:background="#B7532203"
+            />
+        <Button
+            android:id="@+id/b"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Garden veggie chickpea sandwhich"
+            android:textColor="#F8ED8D"
+            android:layout_marginTop="7dp"
+            android:background="#B7532203"
+            />
+        <Button
+            android:id="@+id/c"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Spicy tuna roll"
+            android:textColor="#F8ED8D"
+            android:layout_marginTop="7dp"
+            android:background="#B7532203"
+            />
+        <Button
+            android:id="@+id/d"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Sun dried tomato basil pasta"
+            android:textColor="#F8ED8D"
+            android:layout_marginTop="7dp"
+            android:background="#B7532203"
+            />
+        <Button
+            android:id="@+id/e"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Spanish chickpea and spinach stew"
+            android:textColor="#F8ED8D"
+            android:layout_marginTop="7dp"
+            android:background="#B7532203"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
