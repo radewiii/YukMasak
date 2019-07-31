@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SeActivity"></activity>
+        <activity android:name=".SeActivity" />
         <activity android:name=".SdActivity" />
         <activity android:name=".ScActivity" />
         <activity android:name=".SbActivity" />

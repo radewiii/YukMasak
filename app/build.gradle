@@ -2,13 +2,13 @@ apply plugin: 'com.android.application'
 
 
 android {
-     signingConfigs {
-         config {
-             storeFile file ('../keystore.jks')
-             storePassword'123454321'
-             keyAlias 'keymasak'
-             keyPassword '123454321'
-         }
+    signingConfigs {
+        config {
+            storeFile file('../keystore.jks')
+            storePassword '123454321'
+            keyAlias 'keymasak'
+            keyPassword '123454321'
+        }
     }
     compileSdkVersion 29
     buildToolsVersion "29.0.1"
